@@ -40,7 +40,7 @@ jobs:
         
       # Automation using Any CLI
       - name: Automation using Any CLI (show account info)
-        run: anypoint-cli-v4 account:user:describe --client_id Aeafc74047384e689319f04855a9866f --client_secret 0A571F1b4F3C46AC84020DE48906d4EE -o json
+        run: anypoint-cli-v4 account:user:describe --client_id aeafc74047384e689319f04855a9866f --client_secret 0A571F1b4F3C46AC84020DE48906d4EE -o json
 
       - name: Integration Testing ( Install BAT CLI)
         run: curl -o- 'https://s3.amazonaws.com/bat-wrapper/install.sh' | bash && echo Integration Testing Complete
